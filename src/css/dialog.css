@@ -1,0 +1,78 @@
+.umc_mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.umc_modal {
+    width: 80%;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    border-radius: 3px;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.umc_content {
+    padding: 1rem;
+}
+
+.umc_modal-foot {
+    display:-webkit-box;
+    display: flex;
+    border-top: 1px solid #D5D5D6;
+}
+
+.umc_modal-cancel {
+    padding: 0 2rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.55555556;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    box-shadow: 0 0 1px transparent;
+    margin: 0;
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.umc_modal-ok {
+    padding: 0 2rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.55555556;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #09BB07;
+    box-shadow: 0 0 1px transparent;
+    margin: 0;
+    border-left: 1px solid #D5D5D6;
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+
+
+.umc_toast {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    color: white;
+    padding: 0.4rem;
+    z-index: 101;
+}
